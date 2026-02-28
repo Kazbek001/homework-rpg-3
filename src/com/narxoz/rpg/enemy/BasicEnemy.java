@@ -17,6 +17,11 @@ public class BasicEnemy implements Enemy {
     }
 
     @Override
+    public String getName() {
+        return "Basic Enemy"; // Немесе осы кластың аты қандай болса, соны жаз
+    }
+
+    @Override
     public int getDamage() {
         return damage;
     }
