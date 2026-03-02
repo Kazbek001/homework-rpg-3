@@ -3,12 +3,12 @@
 ## Архитектура (UML)
 
 ### 1. Class Diagram (Architecture)
-Данная диаграмма отображает структуру системы, где `BattleEngine` (Singleton) выступает координатором, а адаптеры (`Adapter` pattern) позволяют использовать разные API героев и врагов через единый интерфейс `Combatant`.
-![Class Diagram](Diagram/ClassDiagram.jpg)
+Данная диаграмма отображает структуру системы, где `BattleEngine` (Singleton) выступает координатором, а адаптеры (`Adapter` pattern) позволяют использовать разные API героев и врагов через единый интерфейс .
+![Class Diagram](Diagram/ClassDiagram.jpg)   <------- если фото не открывается есть в папке src
 
 ### 2. Sequence Diagram (Combat Flow)
 Диаграмма показывает динамику взаимодействия объектов: как `BattleEngine` вызывает методы у адаптеров, обеспечивая пошаговый бой.
-![Sequence Diagram](Diagram/SequenceDiagram.jpg)
+![Sequence Diagram](Diagram/SequenceDiagram.jpg) <------- если фото не открывается есть в папке src
 
 ## Описание реализации
 * **Singleton**: Обеспечивает наличие только одного экземпляра движка боя в памяти.
