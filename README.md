@@ -4,11 +4,11 @@
 
 ### 1. Class Diagram (Architecture)
 Данная диаграмма отображает структуру системы, где `BattleEngine` (Singleton) выступает координатором, а адаптеры (`Adapter` pattern) позволяют использовать разные API героев и врагов через единый интерфейс .
-![Class Diagram](Diagram/ClassDiagram.jpg)   <------- если фото не открывается есть в папке src
+![Class Diagram](ClassDiagram.jpg.png)   <------- если фото не открывается есть в папке src
 
 ### 2. Sequence Diagram (Combat Flow)
 Диаграмма показывает динамику взаимодействия объектов: как `BattleEngine` вызывает методы у адаптеров, обеспечивая пошаговый бой.
-![Sequence Diagram](Diagram/SequenceDiagram.jpg) <------- если фото не открывается есть в папке src
+![Sequence Diagram](SequenceDiagram.jpg.png) <------- если фото не открывается есть в папке src
 
 ## Описание реализации
 * **Singleton**: Обеспечивает наличие только одного экземпляра движка боя в памяти.
